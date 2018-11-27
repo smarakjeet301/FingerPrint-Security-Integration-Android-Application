@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.rishabh.kumar.fingerprint.MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="What would you like to do ?"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textColorHint="@color/text"
+        android:textColor="@color/text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/user_name"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/user_name"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/text"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="@string/add"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/add"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/show"
+        android:id="@+id/show"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/mybutton"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/update"
+        android:id="@+id/update"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="delete"
+        android:id="@+id/delete"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

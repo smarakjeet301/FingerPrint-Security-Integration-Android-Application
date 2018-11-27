@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.rishabh.kumar.fingerprint.Welcome">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:text="WELCOME"
+    android:layout_marginTop="224dp"
+    android:textColor="@color/colorPrimary"
+    android:id="@+id/welcome"/>
+</LinearLayout>
